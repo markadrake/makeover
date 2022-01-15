@@ -1,0 +1,22 @@
+/* 
+	remove sidebar column 
+*/
+body [data-testid="sidebarColumn"] {
+	display: none !important;
+}
+
+body [data-testid="primaryColumn"] {
+	max-width: 748px;
+}
+
+body [data-testid="primaryColumn"] .r-1ye8kvj {
+	max-width: 100%;
+}
+
+body [data-testid="DMDrawer"] {
+	display: none;
+}
+
+body main > div > div > div > div:first-child > div > div:first-child > div:first-child {
+	display: none;
+}

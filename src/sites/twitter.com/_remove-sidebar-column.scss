@@ -1,12 +1,18 @@
 /* 
-    remove sidebar column 
+	remove sidebar column 
 */
-[data-testid="sidebarColumn"] {
-    display: none;
-}
+body {
 
-[data-testid="primaryColumn"] {
-    .r-1ye8kvj {
-        max-width: 720px;
+    [data-testid="sidebarColumn"] {
+        display: none !important;
     }
+    
+    [data-testid="primaryColumn"] {
+        max-width: 748px;
+
+        .r-1ye8kvj {
+            max-width: 100%;
+        }
+    }
+    
 }

@@ -1,0 +1,10 @@
+/*
+    *[@id="react-root"]/div/div/div[2]/main/div/div/div/div[1]/div/div[1]/div[1]
+*/
+body {
+    main {
+        > div > div > div > div:first-child > div > div:first-child > div:first-child {
+            display: none;
+        }
+    }
+}
